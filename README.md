@@ -3,7 +3,7 @@
 =======
 Summary
 
-A very, very simple app designed to manage your daily tasks.
+Just another App to help you manage your daily tasks.
 
 
 Goals
@@ -16,5 +16,15 @@ Goals
 Design Patterns
 =======
 
-- Model-View-Presenter (MVP)
-- Repository Pattern
+- [Model-View-Presenter (MVP)](https://pt.wikipedia.org/wiki/Model-view-presenter)
+- [Repository Pattern](http://blog.caelum.com.br/repository-seu-modelo-mais-orientado-a-objeto/)
+
+
+Dependencies
+======= 
+
+- [Mockito](http://mockito.org/)
+- [Truth](https://github.com/google/truth)
+- [ActiveAndroid](http://www.activeandroid.com/)
+- [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
+- [AndroidAnnotations](http://androidannotations.org/) - to be added -
