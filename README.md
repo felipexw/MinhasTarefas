@@ -1,6 +1,7 @@
-|Code Quality|
-|:-:|
-|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/485163af383d4a59a4a4e9249a121cb5)](https://www.codacy.com/app/felipexw/MinhasTarefas?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felipexw/MinhasTarefas&amp;utm_campaign=Badge_Grade)|
+| Code Quality | Issues |
+|:-:|:-:|
+|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/485163af383d4a59a4a4e9249a121cb5)](https://www.codacy.com/app/felipexw/MinhasTarefas?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=felipexw/MinhasTarefas&amp;utm_campaign=Badge_Grade)|[![Stories in Ready](https://badge.waffle.io/felipexw/MinhasTarefas.svg?label=ready&title=Ready)](http://waffle.io/felipexw/MinhasTarefas)|
+
 # MinhasTarefas
 
 =======
