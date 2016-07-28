@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+/MinhasTarefas/.idea/
+.DS_Store
+/build
+/captures
+/MinhasTarefas/app/build
+/MinhasTarefas/build/
+/MinhasTarefas/local.properties
