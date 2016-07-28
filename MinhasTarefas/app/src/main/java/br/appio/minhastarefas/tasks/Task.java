@@ -1,4 +1,4 @@
-package minhastarefas.appio.br.minhastarefas.tasks;
+package br.appio.minhastarefas.tasks;
 
 /**
  * Created by Appio on 26/07/2016.
