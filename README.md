@@ -28,6 +28,7 @@ Dependencies
 ======= 
 
 - [Mockito](http://mockito.org/)
+- [Lombok](https://projectlombok.org/)
 - [Truth](https://github.com/google/truth)
 - [ActiveAndroid](http://www.activeandroid.com/)
 - [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
