@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+def AAVersion = '4.0.0'
 
 android {
     compileSdkVersion 24
@@ -20,8 +22,17 @@ android {
 }
 
 dependencies {
+    //android annotations
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+
+    //lombok
+    provided "org.projectlombok:lombok:1.16.0"
+    apt "org.projectlombok:lombok:1.16.10"
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.0'
     compile 'com.android.support:design:24.1.0'
+
 }
