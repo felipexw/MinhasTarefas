@@ -1,4 +1,4 @@
-package minhastarefas.appio.br.minhastarefas;
+package br.appio.minhastarefas;
 
 import org.junit.Test;
 
