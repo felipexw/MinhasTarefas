@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data android:name="AA_DB_NAME" android:value="minhasTarefas.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="5" />
+        <meta-data android:name="AA_MODELS" android:value="br.appio.minhastarefas.Task"/>
     </application>
 
 </manifest>

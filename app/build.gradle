@@ -26,6 +26,10 @@ dependencies {
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
 
+    //active android
+    compile group: 'com.github.vicpinm', name: 'activeandroidrx', version: '3.1.4'
+
+
     //lombok
     provided "org.projectlombok:lombok:1.16.0"
     apt "org.projectlombok:lombok:1.16.10"
