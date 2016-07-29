@@ -29,6 +29,8 @@ dependencies {
     //active android
     compile group: 'com.github.vicpinm', name: 'activeandroidrx', version: '3.1.4'
 
+    //google truth
+    testCompile "com.google.truth:truth:0.28"
 
     //lombok
     provided "org.projectlombok:lombok:1.16.0"
