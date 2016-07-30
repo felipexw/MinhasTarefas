@@ -44,7 +44,7 @@ The most commons unit testing frameworks available are the following:
 - [ViewAsserts](https://developer.android.com/reference/android/test/ViewAsserts.html)
 
 ##Instrumentation Testing
-Instrutamentation tests do require an emulator or actual device to run. They can be described as tests that are performed when its needed to control the Android's components lifecycle (e.g. drive the activities instead of having these driven by the system). tipically they are place inside ```app/src/androidTest/java``` package.
+Instrutamentation tests do require an emulator or actual device to run. They can be described as tests that are performed when its needed to control the Android's components lifecycle (e.g. drive the activities instead of having these driven by the system). Tipically they are place inside ```app/src/androidTest/java``` package.
 
 - [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 - [UIAutomator](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
