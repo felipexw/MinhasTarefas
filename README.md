@@ -37,7 +37,10 @@ The most commons unit testing frameworks available are the following:
 
 - [Truth](https://github.com/google/truth)
 - [RobotEletric](http://robolectric.org/)
-- [JUnit](http://junit.org/junit4/) - version 5 its coming! :) -
+- [JUnit](http://junit.org/junit4/) - version 5 its coming up! :) -
+- [MoreAsserts](https://developer.android.com/reference/android/test/MoreAsserts.html)
+- [AssertJ Android](http://square.github.io/assertj-android/)
+- [ViewAsserts](https://developer.android.com/reference/android/test/ViewAsserts.html)
 
 ##Instrumentation Testing
 Instrutamentation tests do require an emulator or actual device to run. They can be described as tests that are performed when its needed to control the Android's components lifecycle (e.g. drive the activities instead of having these driven by the system). tipically they are place inside ```app/src/androidTest/java``` package.
