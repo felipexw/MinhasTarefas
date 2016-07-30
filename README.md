@@ -50,7 +50,7 @@ Instrutamentation tests do require an emulator or actual device to run. They can
 - [Google Android Testing](https://developer.android.com/studio/test/index.html)
 - [Robotium](https://github.com/RobotiumTech/robotium)
 - [Selendroid](http://selendroid.io/)
--
+
 
 ##Mocking 
 Mocking objects are objects responsible for "mimic" real domain objets. 
