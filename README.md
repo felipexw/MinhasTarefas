@@ -30,6 +30,8 @@ Dependencies
 - [Mockito](http://mockito.org/)
 - [Lombok](https://projectlombok.org/)
 - [Truth](https://github.com/google/truth)
+- [AssertJ Android](http://square.github.io/assertj-android/)
+- [RobotEletric](http://robolectric.org/)
 - [ActiveAndroid](http://www.activeandroid.com/)
 - [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 - [AndroidAnnotations](http://androidannotations.org/) - to be added -
