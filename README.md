@@ -29,6 +29,7 @@ Dependencies
 ======= 
 
 #Testing
+Automated testing should be performed as everytime as possible. Its the only way that ensure quality software and a good design.  
 
 
 ##Unity Testing
