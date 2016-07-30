@@ -17,6 +17,7 @@ Goals
 - Understand the keys principles behind Android
 - Understand the keys priciples that support the Android the libraries used in this project
 
+
 Design Patterns
 =======
 
@@ -27,11 +28,42 @@ Design Patterns
 Dependencies
 ======= 
 
-- [Mockito](http://mockito.org/)
-- [Lombok](https://projectlombok.org/)
+#Testing
+
+
+##Unity Testing
+Unit testing is a particular kind of testing which is responsible for testing a very isolated feature. In other words, this kind of project aims to run testing in isolation of other components. Normally, this type of test its inside the package ```app/src/test/java```.
+The most commons unit testing frameworks available are the following:
+
 - [Truth](https://github.com/google/truth)
-- [AssertJ Android](http://square.github.io/assertj-android/)
 - [RobotEletric](http://robolectric.org/)
-- [ActiveAndroid](http://www.activeandroid.com/)
+- [JUnit](http://junit.org/junit4/) - version 5 its coming! :) -
+
+##Instrumentation Testing
+Instrutamentation tests do require an emulator or actual device to run. They can be described as tests that are performed when its needed to control the Android's components lifecycle (e.g. drive the activities instead of having these driven by the system). tipically they are place inside ```app/src/androidTest/java``` package.
+
 - [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
-- [AndroidAnnotations](http://androidannotations.org/) - to be added -
+- [UIAutomator](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
+- [Google Android Testing](https://developer.android.com/studio/test/index.html)
+- [Robotium](https://github.com/RobotiumTech/robotium)
+- [Selendroid](http://selendroid.io/)
+-
+
+##Mocking 
+Mocking objects are objects responsible for "mimic" real domain objets. 
+
+- [Mockito](http://mockito.org/)
+- [EasyMock](http://easymock.org/)
+- [PowerMock](https://github.com/jayway/powermock)
+
+
+#Tools
+
+- [Lombok](https://projectlombok.org/)
+- [ActiveAndroid](http://www.activeandroid.com/)
+
+#DI frameworks
+- [AndroidAnnotations](http://androidannotations.org/)
+- [Dagger](http://square.github.io/dagger/)
+
+
